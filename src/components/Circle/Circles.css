@@ -1,0 +1,68 @@
+.num {
+    color: #7C8798;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.175px;
+    background-color: #262E38;
+    padding: 9.29px 18.12px 9.29px 18.12px;
+    border-radius: 25px;
+    margin-bottom: 24px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+.num:hover {
+    color: #FFF;
+    background-color: #7C8798;
+}
+
+.num-div {
+    display: flex;
+    flex-direction: row;
+    gap: 17px;
+}
+
+.circle-clicked {
+    color: #FFF;
+    background: #FC7614;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.175px;
+    padding: 9.29px 18.12px 9.29px 18.12px;
+    border-radius: 25px;
+    margin-bottom: 24px;
+    width: 42px;
+    height: 42px;
+    border: none;
+    cursor: pointer;
+}
+
+@media(min-width:1440px) {
+    .num {
+        padding: 14px 22px 14px 22px;
+        margin-bottom: 32px;
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        width: 51px;
+        height: 51px;
+    }
+
+    .num-div {
+        gap: 21px;
+    }
+
+    .circle-clicked {
+        padding: 14px 22px 14px 22px;
+        font-size: 16px;
+        width: 51px;
+        height: 51px;
+    }
+}

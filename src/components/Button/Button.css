@@ -1,0 +1,40 @@
+.submit {
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    border-radius: 22.5px;
+    background: #FC7614;
+    padding: 12px 109px 12px 108px;
+    cursor: pointer;
+    border: none;
+}
+
+.btn-clicked {
+    color: #FC7614;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    border-radius: 22.5px;
+    background: #FFF;
+    padding: 12px 109px 12px 108px;
+    cursor: pointer;
+    border: none;
+}
+
+@media(min-width:1440px) {
+    .submit {
+        font-size: 15px;
+        padding: 12px 138px 12px 138px;
+    }
+
+    .btn-clicked {
+        padding: 12px 138px 12px 138px;
+    }
+}
